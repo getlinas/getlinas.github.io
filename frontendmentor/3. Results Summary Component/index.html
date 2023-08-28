@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results Summary Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+        <div class="component">
+          <div class="results">
+            <p class="your-result">Your result</p>
+            <div class="round">
+              <p class="score">76</p>
+              <p class="of-100">of 100</p>
+            </div>
+            <p class="great">Great</p>
+            <p class="score-description">
+              You scored higher than 65% of the people who have taken these tests. 
+            </p>
+          </div>
+          <div class="summary">
+            <p class="summary-title">Summary</p>
+            <div class="stats">
+              <div class="stats-box red">
+                <div>
+                  <img src="assets/images/icon-reaction.svg" alt="" class="icon" />
+                  <p>Reaction</p>
+                </div>
+                <div>
+                  <p class="points">80</p>
+                  <p class="out-of-100">/ 100</p>
+                </div>
+              </div>
+              <div class="stats-box yellow">
+                <div>
+                  <img src="assets/images/icon-memory.svg" alt="" class="icon" />
+                  <p>Memory</p>
+                </div>
+                <div>
+                  <p class="points">92</p>
+                  <p class="out-of-100">/ 100</p>
+                </div>
+              </div>
+              <div class="stats-box green">
+                <div>
+                  <img src="assets/images/icon-verbal.svg" alt="" class="icon" />
+                  <p>Verbal</p>
+                </div>
+                <div>
+                  <p class="points">61</p>
+                  <p class="out-of-100">/ 100</p>
+                </div>
+              </div>
+              <div class="stats-box blue">
+                <div>
+                  <img src="assets/images/icon-visual.svg" alt="" class="icon" />
+                  <p>Visual</p>
+                </div>
+                <div>
+                  <p class="points">72</p>
+                  <p class="out-of-100">/ 100</p>
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <p class="button">Continue</p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <script type="module" src="file-reader.js"></script>
+
+  </body>
+</html>
