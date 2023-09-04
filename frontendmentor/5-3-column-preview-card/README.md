@@ -1,0 +1,1 @@
+Frontend Mentor - 3-Column Preview Card Component
